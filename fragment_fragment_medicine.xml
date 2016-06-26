@@ -1,0 +1,199 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.hp.loginapp.FragmentMedicine">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+
+
+      <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Days"
+            android:textColor="#ffffff"
+          android:padding="10dp"
+            android:background="@drawable/rect"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dp"
+            android:layout_gravity="left|top" />
+      <CheckBox
+          android:id="@+id/checkBox1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Monday "
+          android:textColor="#ffffff"
+          android:checked="false"
+          android:layout_marginLeft="30dp"
+          android:layout_gravity="left" />
+      <CheckBox
+          android:id="@+id/checkBox2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Tuesday "
+          android:textColor="#ffffff"
+          android:checked="false"
+          android:layout_marginLeft="30dp"
+
+          android:layout_gravity="left" />
+      <CheckBox
+          android:id="@+id/checkBox3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Wednesday "
+          android:textColor="#ffffff"
+          android:checked="false"
+          android:layout_marginLeft="30dp"
+          android:layout_gravity="left" />
+      <CheckBox
+          android:id="@+id/checkBox4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Thursday "
+          android:textColor="#ffffff"
+          android:checked="false"
+          android:layout_marginLeft="30dp"
+          android:layout_gravity="left" />
+      <CheckBox
+          android:id="@+id/checkBox5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Friday "
+          android:textColor="#ffffff"
+          android:checked="false"
+          android:layout_marginLeft="30dp"
+          android:layout_gravity="left" />
+      <CheckBox
+          android:id="@+id/checkBox6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Saturday "
+          android:textColor="#ffffff"
+          android:checked="false"
+          android:layout_marginLeft="30dp"
+          android:layout_gravity="left" />
+      <CheckBox
+          android:id="@+id/checkBox7"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Sunday "
+          android:textColor="#ffffff"
+          android:checked="false"
+          android:layout_marginLeft="30dp"
+          android:layout_gravity="left" />
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="10dp"
+          android:paddingRight="10dp"
+          android:paddingBottom="10dp"
+          android:paddingTop="10dp"
+          android:text="Enter Timing(24HR Format)"
+          android:textColor="#ffffff"
+          android:background="@drawable/rect"
+
+          android:layout_marginTop="20dp"
+          android:layout_marginLeft="20dp"
+          android:layout_centerHorizontal="true"
+          android:textSize="20dp"
+           />
+      `
+      <EditText
+          android:id="@+id/slot1"
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:hint="Slot 1(hr:min)"
+
+          android:layout_marginTop="20dp"
+          android:textSize="19dp"
+          android:layout_above="@+id/terms"
+          android:padding="16dp"
+          android:gravity="center"
+          android:inputType="number"
+          android:textColorHint="#ffffff"
+          android:textColor="#ffffff"
+          android:background="@drawable/rect1"
+          android:maxLength="4"
+          android:layout_gravity="center_horizontal|top" />
+      <EditText
+          android:id="@+id/slot2"
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:hint="Slot 2(hr:min) "
+          android:inputType="number"
+          android:layout_marginTop="10dp"
+          android:textSize="19dp"
+          android:layout_above="@+id/terms"
+          android:padding="16dp"
+          android:gravity="center"
+          android:maxLength="4"
+          android:textColorHint="#ffffff"
+          android:textColor="#ffffff"
+          android:background="@drawable/rect1"
+
+          android:layout_gravity="center_horizontal|top" />
+      <EditText
+          android:id="@+id/slot3"
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:hint="Slot 3(hr:min) "
+          android:maxLength="4"
+          android:inputType="number"
+          android:layout_marginTop="10dp"
+          android:textSize="19dp"
+          android:layout_above="@+id/terms"
+          android:padding="16dp"
+          android:gravity="center"
+          android:textColorHint="#ffffff"
+          android:textColor="#ffffff"
+          android:background="@drawable/rect1"
+          android:layout_gravity="center_horizontal|bottom" />
+
+
+
+      <Button
+          android:id="@+id/send"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Send"
+          android:textColor="#ffffff"
+
+          android:textSize="19dp"
+          android:layout_above="@+id/terms"
+          android:padding="16dp"
+          android:gravity="center"
+
+          android:background="@drawable/bgrect"
+          android:layout_marginBottom="0dp"
+          android:layout_gravity="right|bottom" />
+
+
+
+
+
+
+
+  </LinearLayout>
+        </ScrollView>
+
+
+    </FrameLayout>
+
+
+</FrameLayout>

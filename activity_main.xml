@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:background="@drawable/bg">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect">
+
+        <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+          <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/wolf"
+                        android:layout_width="80dp"
+                        android:layout_height="85dp"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/wsdesignlogo"
+                        android:layout_marginTop="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|top" />
+
+                    <EditText
+                        android:textColor="#fff"
+                        android:id="@+id/editTextUsername"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/rect1"
+                        android:layout_marginTop="40dp"
+                        android:hint="Username"
+                        android:textColorHint="#ffffff"
+                        android:paddingLeft="20dp"
+                        android:drawableLeft="@drawable/email"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
+                        android:drawablePadding="16dp">
+                    </EditText>
+
+                    <EditText
+                        android:textColor="#fff"
+                        android:id="@+id/editTextPassword"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/rect1"
+                        android:inputType="textPassword"
+                        android:layout_marginTop="10dp"
+                        android:hint="Password"
+                        android:textColorHint="#ffffff"
+                        android:drawableLeft="@drawable/pass"
+                        android:paddingLeft="20dp"
+                        android:drawablePadding="16dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
+                        android:layout_gravity="left|center_vertical">
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/signin"
+                        android:layout_width="225dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sign In"
+                        android:textColor="#ffffff"
+                        android:textSize="19dp"
+                        android:layout_above="@+id/terms"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:background="@drawable/bgrect"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center_horizontal|bottom" />
+
+                    <TextView
+                        android:id="@+id/Create"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No account yet? Create one"
+                        android:textColor="#ffffff"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal|bottom" />
+
+
+          </LinearLayout>
+
+        </ScrollView>
+    </FrameLayout>
+
+
+</RelativeLayout>

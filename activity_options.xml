@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:id="@+id/drawer_layout"
+    android:background="@drawable/bg">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Image"
+            android:textColor="#ffffff"
+            android:onClick="sendImage"
+            android:textSize="19dp"
+            android:layout_above="@+id/terms"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/rect"
+            android:layout_marginBottom="33dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/sen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Message"
+            android:textColor="#ffffff"
+            android:onClick="sendMsg"
+            android:textSize="19dp"
+            android:layout_above="@+id/terms"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/rect"
+            android:layout_marginBottom="200dp"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <TextView
+            android:id="@+id/se"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine Dispenser"
+            android:textColor="#ffffff"
+            android:onClick="medDispense"
+            android:textSize="19dp"
+            android:layout_above="@+id/terms"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/rect"
+            android:layout_marginBottom="140dp"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="#ffffff"
+            android:onClick="logout"
+            android:textSize="19dp"
+            android:layout_above="@+id/terms"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/rect"
+            android:layout_marginBottom="80dp"
+            android:layout_gravity="right|bottom" />
+
+
+    </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/wolf"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/wsdesignlogo"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"/>
+
+
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.hp.loginapp.SettingFragment">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/wolf"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/wsdesignlogo"
+                android:layout_marginTop="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal|top" />
+
+
+            <TextView
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ENTER TIME IN SECONDS"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:layout_above="@+id/terms"
+            android:padding="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:background="@drawable/rect"
+            android:layout_marginBottom="33dp"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextTime"
+            android:inputType="number"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@drawable/rect1"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="10dp"
+            android:layout_alignBaseline="@+id/wolf"
+            android:layout_alignBottom="@+id/wolf"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEND"
+            android:textColor="#ffffff"
+            android:id="@+id/buttonSend"
+
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop= "30dp"
+            android:background="@drawable/bgrect"/>
+
+
+        </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+</FrameLayout>

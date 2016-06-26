@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.hp.loginapp.FragmentMsg">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgrect"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+
+        <EditText
+            android:id="@+id/etmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="write message"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+
+            android:textSize="19dp"
+            android:layout_above="@+id/terms"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rect1"
+            android:layout_marginBottom="200dp"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textColor="#ffffff"
+            android:background="@drawable/bgrect"
+
+            android:id="@+id/btsend"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="120dp"/>
+
+        <TextView
+            android:id="@+id/wolf"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/wsdesignlogo"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|top" />
+
+
+    </FrameLayout>
+
+
+</FrameLayout>
